@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/Data Structures/LinkedList.h
+
+/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/LinkedList/main.cpp
+limits
+-
+string
+-
+cassert
+-
+iostream
+-
+../Data Structures/LinkedList.h
+/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/Data Structures/LinkedList.h
+
