@@ -65,25 +65,28 @@ namespace ufl_cap4053 { namespace fundamentals {
                 }
                 //        Returns true if there are no elements, false otherwise.
                 T getFront() const{
-                    return head;
+                    return head == nullptr ? "null" : head->data;
                 }
                 //    Returns the first element in the list.
                 T getBack() const{
-                    return tail;
+                    return tail == nullptr ? "null" : tail->data;
                 }
                 //    Returns the last element in the list.
                 void enqueue(T element){
                     Node *toInsert = new Node;
                     toInsert->data = element;
                     if(head != nullptr) {
-                        head->prev = toInsert;
-                        toInsert->next = head;
-                        return;
+                        Node *temp = head;
+                        temp->prev = toInsert;
+                        toInsert->next = temp;
+                        head = toInsert;
                     }
-
-                    toInsert->next = nullptr;
-                    toInsert->prev = nullptr;
-                    head = toInsert;
+                    else{
+                        toInsert->next = nullptr;
+                        toInsert->prev = nullptr;
+                        head = toInsert;
+                        tail = head;
+                    }
                 }
                 //    Inserts the specified element to the list.
                 void dequeue(){

@@ -42,27 +42,34 @@ int main()
     {
         valueList.enqueue(testStrings[index]);
         pointerList.enqueue(testStrings[index].c_str());
-        cout << "\tpointerList:";
+        cout << "\tget front: " << pointerList.getFront();
+        cout << "\t\tget back: " << pointerList.getBack();
+
 //        traverse(pointerList, printCString);
         cout << endl;
     }
 //
-//    // Test dequeue.
-//    cout << endl << "Testing dequeue..." << endl;
-//    for (;;)
-//    {
-//        cout << "Removing the front element:";
-//        printCString(pointerList.getFront());
-//        pointerList.dequeue();
+    // Test dequeue.
+    cout << endl << "Testing dequeue..." << endl;
+    for (;;)
+    {
+        cout << "Current front element: " << pointerList.getFront();
+        cout << "\t\t\tRemoving the front element: ";
+        printCString(pointerList.getFront());
+        pointerList.dequeue();
 //        cout << endl << "\tpointerList:";
+        cout << "\t\t\tFront element after dequeue: " << pointerList.getFront();
+//        cout << "\t\tget back: " << pointerList.getBack();
 //        traverse(pointerList, printCString);
-//        cout << endl;
-//
-//        if (pointerList.isEmpty())
-//            break;
-//        else
-//            valueList.dequeue();
-//    }
+        cout << endl;
+
+        if (pointerList.isEmpty()){
+            cout << "\n\n\nFront element when empty: " << pointerList.getFront();
+            break;
+        }
+        else
+            valueList.dequeue();
+    }
 //
 //    // Test removal of only element.
 //    cout << endl << "Removing the only element from valueList:";
