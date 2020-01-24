@@ -15,8 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E0-Base/LinkedList/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/LinkedList/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/E0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E0" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,41 +87,87 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1579894582139">
+    <state width="1638" height="354" key="GridCell.Tab.0.bottom" timestamp="1579906688896">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579894582139" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1579894582138">
+    <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688896" />
+    <state width="1638" height="354" key="GridCell.Tab.0.center" timestamp="1579906688895">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579894582138" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1579894582138">
+    <state width="1638" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688895" />
+    <state width="1638" height="354" key="GridCell.Tab.0.left" timestamp="1579906688894">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579894582138" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1579894582139">
+    <state width="1638" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688894" />
+    <state width="1638" height="354" key="GridCell.Tab.0.right" timestamp="1579906688895">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579894582139" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1579894045202">
+    <state width="1638" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688895" />
+    <state width="1638" height="367" key="GridCell.Tab.1.bottom" timestamp="1579906588385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579894045202" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1579894045201">
+    <state width="1638" height="367" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
+    <state width="1638" height="367" key="GridCell.Tab.1.center" timestamp="1579906588385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579894045201" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1579894045201">
+    <state width="1638" height="367" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
+    <state width="1638" height="367" key="GridCell.Tab.1.left" timestamp="1579906588384">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579894045201" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1579894045202">
+    <state width="1638" height="367" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588384" />
+    <state width="1638" height="367" key="GridCell.Tab.1.right" timestamp="1579906588385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579894045202" />
+    <state width="1638" height="367" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1579846949065">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579846949065" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>188</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>192</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>195</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>198</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>201</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>203</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>206</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
+          <line>209</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -75,55 +75,177 @@ namespace ufl_cap4053 { namespace fundamentals {
                 void enqueue(T element){
                     Node *toInsert = new Node;
                     toInsert->data = element;
-                    if(head != nullptr) {
-                        Node *temp = head;
-                        temp->prev = toInsert;
-                        toInsert->next = temp;
-                        head = toInsert;
-                    }
-                    else{
+                    if(head == nullptr) {
                         toInsert->next = nullptr;
                         toInsert->prev = nullptr;
                         head = toInsert;
-                        tail = head;
+//                        Node *temp = head;
+//                        temp->prev = toInsert;
+//                        toInsert->next = temp;
+//                        head = toInsert;
+                    }
+                    else if(tail == nullptr){
+                        Node *curr = head;
+                        while(curr->next != nullptr){
+                            curr = curr->next;
+                        }
+                        toInsert->next = nullptr;
+                        toInsert->prev = curr;
+                        curr->next = toInsert;
+                        tail = toInsert;
+                    }
+                    else{
+                        tail->next = toInsert;
+                        toInsert->prev = tail;
+                        toInsert->next = nullptr;
+                        tail = toInsert;
                     }
                 }
                 //    Inserts the specified element to the list.
                 void dequeue(){
-                    //if the head is not null, and the next is not null, there
-                    //are at least 2 elements in the list, so we must detach
-                    //the old head and set it to the second element, newHead
-                    if(head != nullptr && head->next != nullptr){
-                        Node *newHead = head->next;
-                        newHead->prev = nullptr;
-                        head = newHead;
-                    }
-                    else
+                    //if head is null, return
+                    //if head->next is not null, increment head to next
+                    //check if on tail after this move, if so set tail to null (avoid duplicate nodes)
+                    //if head->next is null, remove head
+                    if(head == NULL)
+                        return;
+                    else if(head->next != nullptr){
+                        head = head->next;
+                        head->prev = nullptr;
+                        if(head->next == nullptr)
+                            tail = nullptr;
+                    } else{
                         head = nullptr;
+                    }
+
                 }
                 //        Removes the first element from the list.
                 void pop(){
+                    if(!isEmpty()){
+                        if(tail){
+                            Node *temp = tail;
+                            tail = temp->prev;
+                            free(temp);
+                            temp->next = nullptr;
+
+                        } else {
+                            head = nullptr;
+                            tail = nullptr;
+                        }
+                    }
                     //if head is null, then there is nothing in the list
                     //if head is not null, but tail is null there is 1 element
                     //if both head and tail are not null, then there are 2 elements
-                    if(head == nullptr)
-                        return head;
-                    else if(head != nullptr && tail == nullptr){
-                        return head;
-                    }
-                    else{
-                        //create new tail, unlink with old tail, set tail to new tail
-                        Node *newTail = tail->prev;
-                        newTail->next = nullptr;
-                        tail = newTail;
-                    }
+//                    if(head == nullptr)
+//                        return;
+//                    if(tail == nullptr)
+//                    Node *current = head;
+//                    while(current->next != nullptr){
+//                        current = current->next;
+//                    }
+//                    Node *prev = current->prev;
+//                    current = nullptr;
+//                    tail = prev;
+
+
                 }
                 //        Removes the last element from the list.
-                void clear();
+                void clear(){
+                    Node *current = head;
+                    Node *next;
+                    while(current != nullptr){
+                        next = current->next;
+                        free(current);
+                        current = next;
+                    }
+                    head = NULL;
+                }
                 //        Removes all elements from the list.
-                bool contains(T element) const;
+                bool contains(T element) const{
+                    if(head == nullptr)
+                        return false;
+                    Node *curr = head;
+                    while(curr != nullptr){
+                        if(curr->data == element)
+                            return true;
+                        curr = curr->next;
+                    }
+                    return false;
+                }
                 //        Returns true if you find a node whose data equals the specified element, false otherwise.
-                void remove(T element);
+                void remove(T element){
+                    /* base case */
+                    if (head == nullptr)
+                        return;
+                    else if (head->data == element && head->next == nullptr){
+                        head = nullptr;
+                        return;
+                    }
+
+
+                    Node *current = head;
+                    while(current != nullptr){
+                        //if find node and length > 2
+                        if(current->data == element && current->next != nullptr && current->prev != nullptr){
+                            Node *prev = current->prev;
+                            Node *next = current->next;
+                            next->prev = prev;
+                            prev->next = next;
+//                            free(current);
+                        }
+                        else if(current->data == element && current == head && current->next != nullptr){
+                            //if head is to be removed and list length > 1
+                            head = current->next;
+                            head->prev = nullptr;
+//                            free(current);
+                        }
+                        else if(current->data == element && current == head && current->next == nullptr){
+                            //if head is to be removed and list length = 1
+                            head = nullptr;
+//                            free(current);
+                        }
+                        else{
+                            //if tail is to be removed
+                            tail = tail->prev;
+//                            free(current);
+                        }
+                    }
+
+                    /* Change next only if node to be
+                    deleted is NOT the last node */
+//                    if (del->next != NULL)
+//                        del->next->prev = del->prev;
+//
+//                    /* Change prev only if node to be
+//                    deleted is NOT the first node */
+//                    if (del->prev != NULL)
+//                        del->prev->next = del->next;
+//
+//                    /* Finally, free the memory occupied by del*/
+//                    free(del);
+//                    return;
+//                    Node *current = head;
+//                    while(current != nullptr){
+//
+//                        if(current->data == element){
+//                            Node *next = current->next;
+//                            Node *prev = current->prev;
+//                            //head node removal list length > 1
+//                            if(current == head && tail != nullptr){
+//                                next->prev = nullptr;
+//                                free(current);
+//                                head = next;
+//                                head->next = tail;
+//                            }
+//                            else if(current == head && tail == nullptr){
+//
+//                            }
+//
+//                        }
+//                        free(current);
+//                    }
+//                    head = NULL;
+                }
                 //        Removes the first node you find whose data equals the specified element.
             };
 

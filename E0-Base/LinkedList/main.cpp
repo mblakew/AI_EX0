@@ -71,44 +71,51 @@ int main()
             valueList.dequeue();
     }
 //
-//    // Test removal of only element.
+    // Test removal of only element.
 //    cout << endl << "Removing the only element from valueList:";
-//    printCString(valueList.getFront().c_str());
-//    valueList.remove(testStrings[numOfStrings - 1]);
-//    cout << endl << "\tvalueList:";
+    cout << "\n\n\nFront element when empty: " << pointerList.getFront();
+
+    printCString(valueList.getFront().c_str());
+    valueList.remove(testStrings[numOfStrings - 1]);
+    cout << endl << "\tvalueList:";
+
 //    traverse(valueList, printString);
-//    cout << endl;
+    cout << endl;
 //
 //    // Test containment check when empty
-//    cout << endl << "Testing search for: alpha";
-//    tempStr = "alpha";
-//    if (!valueList.contains(tempStr))
-//    {
-//        cout << endl << "\tvalueList:";
+    cout << endl << "Testing search for: alpha";
+    tempStr = "alpha";
+    if (!valueList.contains(tempStr))
+    {
+        cout << endl << "\tvalueList: TRUEEUEUEUEUEUEU";
 //        traverse(valueList, printString);
-//        cout << endl;
-//    }
+        cout << endl;
+    }
 //
-//    // Test pop.
-//    cout << endl << "Testing pop..." << endl;
-//    cout << "Rebuilding list." << endl;
-//    for (unsigned int index = 0; index < numOfStrings; ++index)
-//        pointerList.enqueue(testStrings[index].c_str());
-//
-//    cout << "\tpointerList:";
+    // Test pop.
+    cout << endl << "\n\n\nTesting pop..." << endl;
+    cout << "Rebuilding list." << endl;
+    for (unsigned int index = 0; index < numOfStrings; ++index)
+        pointerList.enqueue(testStrings[index].c_str());
+
+    cout << "\tpointerList:";
+    cout << "\tget front: " << pointerList.getFront();
+    cout << "\t\tget back: " << pointerList.getBack();
 //    traverse(pointerList, printCString);
-//    cout << endl;
-//
-//    while (!pointerList.isEmpty())
-//    {
-//        cout << "Removing the back element:";
-//        printCString(pointerList.getBack());
-//        pointerList.pop();
-//        cout << endl << "\tpointerList:";
+    cout << endl;
+
+    while (!pointerList.isEmpty())
+    {
+        cout << "Removing the back element:";
+        printCString(pointerList.getBack());
+        pointerList.pop();
+        cout << endl << "\tpointerList:";
+        cout << "\tget front: " << pointerList.getFront();
+        cout << "\t\tget back: " << pointerList.getBack();
 //        traverse(pointerList, printCString);
-//        cout << endl;
-//    }
-//
+        cout << endl;
+    }
+
 //    // Test enqueue after removal.
 //    cout << endl << "Testing enqueue after removal..." << endl;
 //    for (unsigned int index = 1; index < numOfStrings; ++index)
