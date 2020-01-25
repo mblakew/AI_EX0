@@ -80,10 +80,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/Data Structures/LinkedList.h">
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/Data Structures/TreeNode.h">
 			<Option target="E0"/>
 		</Unit>
-		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/LinkedList/main.cpp">
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/BehaviorTree/Behavior.h">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Agent.cpp">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Agent.h">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Behaviors.cpp">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Behaviors.h">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Game.cpp">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/Game.h">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/World.cpp">
+			<Option target="E0"/>
+		</Unit>
+		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/E0-Base/WumpusWorld/Game/World.h">
 			<Option target="E0"/>
 		</Unit>
 		<Unit filename="/Users/blakewilliams/CLionProjects/CompGamesAI/E0/CMakeLists.txt">

@@ -15,7 +15,7 @@ namespace ufl_cap4053 { namespace fundamentals {
 		friend class Game;
 
 	private:
-		vector<vector<char>> stimulus;
+		vector<vector<char> > stimulus;
 		int width, height;
 		int agentX, agentY;
 

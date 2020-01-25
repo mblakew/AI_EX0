@@ -18,8 +18,8 @@ namespace ufl_cap4053 { namespace fundamentals {
 		enum locationState { CLEAR = 0, DEFINITE_WUMPUS, DEFINITE_PIT,
 		                     POSSIBLE_WUMPUS, POSSIBLE_PIT, POSSIBLE_W_P, UNKNOWN = -1 };
 
-		vector<vector<char>> stimuli; // Stimuli perceived by the agent
-		vector<vector<char>> modelWorld; // Perceptions agent has had of world and information deduced
+		vector<vector<char> > stimuli; // Stimuli perceived by the agent
+		vector<vector<char> > modelWorld; // Perceptions agent has had of world and information deduced
 
 		unsigned x, y; // Location of agent in world currently
 		

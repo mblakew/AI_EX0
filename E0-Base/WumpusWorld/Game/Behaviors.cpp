@@ -45,8 +45,8 @@ namespace ufl_cap4053 { namespace fundamentals {
 		// Local variables for working with the agent's knowledge.
 		Knowledge& knowledge = agent->getKnowledge();
 		unsigned x = knowledge.x, y = knowledge.y;
-		vector<vector<char>>& stimulus = knowledge.stimuli;
-		vector<vector<char>>& modelWorld = knowledge.modelWorld;
+		vector<vector<char> >& stimulus = knowledge.stimuli;
+		vector<vector<char> >& modelWorld = knowledge.modelWorld;
 
 		// First, gather stimulus from the world state.
 		bool breeze = ((stimulus[x][y] & BREEZE) != 0);
@@ -203,8 +203,8 @@ namespace ufl_cap4053 { namespace fundamentals {
 	{
 		Knowledge& knowledge = ((Agent*)context)->getKnowledge();
 
-		vector<vector<char>>& modelWorld = knowledge.modelWorld;
-		vector<vector<char>>& stimulus = knowledge.stimuli;
+		vector<vector<char> >& modelWorld = knowledge.modelWorld;
+		vector<vector<char> >& stimulus = knowledge.stimuli;
 
 		cout << "Agent World Model (With Stimuli)\n";
 		for (int xIndex = 0; xIndex < knowledge.modelWorld.size(); xIndex++)
@@ -285,8 +285,8 @@ namespace ufl_cap4053 { namespace fundamentals {
 		Agent* agent = (Agent*) context;
 
 		Knowledge& knowledge = agent->getKnowledge();
-		vector<vector<char>>& modelWorld = knowledge.modelWorld;
-		vector<vector<char>>& stimulus = knowledge.stimuli;
+		vector<vector<char> >& modelWorld = knowledge.modelWorld;
+		vector<vector<char> >& stimulus = knowledge.stimuli;
 		unsigned x = knowledge.x, y = knowledge.y;
 
 		if (knowledge.safeUnexploredLocationPresent)

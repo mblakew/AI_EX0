@@ -13,10 +13,21 @@
   <component name="ChangeListManager">
     <list default="true" id="eb0bdc31-6330-4b54-955a-6b3b539f4fab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E0-Base/LinkedList/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/LinkedList/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/TreeNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/Data Structures/TreeNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Agent.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Agent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Behaviors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Behaviors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/World.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/World.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/E0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/E0.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E0.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +38,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,11 +59,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/E0-Base" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,25 +106,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1579918139525">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579918460580">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139525" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579918460580" />
+    <state width="1638" height="437" key="GridCell.Tab.0.bottom" timestamp="1579922236317">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="437" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236317" />
     <state width="1638" height="349" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
-    <state width="1638" height="328" key="GridCell.Tab.0.center" timestamp="1579918139524">
+    <state width="1638" height="437" key="GridCell.Tab.0.center" timestamp="1579922236316">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139524" />
+    <state width="1638" height="437" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236316" />
     <state width="1638" height="349" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
-    <state width="1638" height="328" key="GridCell.Tab.0.left" timestamp="1579918139523">
+    <state width="1638" height="437" key="GridCell.Tab.0.left" timestamp="1579922236315">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139523" />
+    <state width="1638" height="437" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236315" />
     <state width="1638" height="349" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1579911530530" />
-    <state width="1638" height="328" key="GridCell.Tab.0.right" timestamp="1579918139524">
+    <state width="1638" height="437" key="GridCell.Tab.0.right" timestamp="1579922236317">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139524" />
+    <state width="1638" height="437" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236317" />
     <state width="1638" height="349" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
     <state width="1638" height="349" key="GridCell.Tab.1.bottom" timestamp="1579918138799">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -127,6 +150,10 @@
     </state>
     <state width="1638" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138798" />
     <state width="1638" height="349" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1579911531358" />
+    <state x="329" y="189" key="SettingsEditor" timestamp="1579922717336">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="329" y="189" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579922717336" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1579846949065">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
