@@ -1,151 +1,146 @@
-#pragma once
-#include <iostream>
 #include <list>
-#include <queue>
-
 using namespace std;
 
 
 // TreeNode class should go in the "ufl_cap4053::fundamentals" namespace!
-namespace ufl_cap4053 { namespace fundamentals {
+namespace ufl_cap4053 {
+    namespace fundamentals {
 
         template <class T>
-        class TreeNode
-        {
+        class TreeNode {
 
         public:
-
-
-            TreeNode<T>(T element)
-            {
-                data = element;
-                children = 0;
-            }
-
+            //Constructor for TreeNode. Should store a default constructed
+            //data value and start with no children
             TreeNode<T>()
             {
-                data = NULL;
-                children = 0;
+                val = NULL;
+
+                num_child = 0;
 
             }
 
+            //Constructor for TreeNode. Should store
+            //an element as its dara value and start
+            //with no children
+            TreeNode<T>(T element)
+            {
+                num_child = 0;
+
+                val = element;
+            }
+
+
+            //returns a reference to the stored data
             const T& getData() const
             {
-                return data;
+                return val;
             }
 
+            //returns the child node at specified by index
+            TreeNode *getChild(size_t index)
+            {
+                list<TreeNode*> tempTree(binaryTree);
+                for(int i = 0; i < index; i++){
+                    if(tempTree.empty())
+                        break;
+                    tempTree.pop_front();
+                }
+                return !tempTree.empty() ? tempTree.front() : nullptr;
+            }
+
+            //return sthe number of children
+            //of this node
             size_t getChildCount() const
             {
-                return tree.size();
+                return binaryTree.size();
             }
 
-            TreeNode* getChild(size_t index)
-            {
-                list<TreeNode*> tree2(tree);
-                int size = 0;
-
-                while (size < index && !tree2.empty())
-                {
-                    tree2.pop_front();
-                    size++;
-                }
-
-                if (!tree2.empty())
-                    return tree2.front();
-                else
-                    return nullptr;
-            }
-
+            //returns the child node at specified by idex
+            //the const version of the other method
             TreeNode* getChild(size_t index) const
             {
-
-                list<TreeNode*> tree2(tree);
-                int size = 0;
-
-                while (size < index && !tree2.empty())
-                {
-                    tree2.pop_front();
-                    size++;
+                list<TreeNode*> tempTree2(binaryTree);
+                for(int i = 0; i < index; i++){
+                    if(tempTree2.empty())
+                        break;
+                    tempTree2.pop_front();
                 }
 
-                if (!tree2.empty())
-                    return tree2.front();
-                else
-                    return nullptr;
+                return !tempTree2.empty() ? tempTree2.front() : nullptr;
+
             }
 
+            //adds child to the children of this node
             void addChild(TreeNode* child)
             {
-                tree.push_back(child);
-                children++;
+                num_child++;
+                //push child back
+                binaryTree.push_back(child);
             }
 
+            //removes a chid at the node
+            //specified by index
             void removeChild(size_t index)
             {
                 int counter = 0;
-                auto it = tree.begin();
-
-                while(it != tree.end())
-                {
-                    if (counter == index)
-                    {
-                        tree.remove(*it);
-                        children--;
+                //iterator to traverse tree
+                auto iterator = binaryTree.begin();
+                for(int i = 0; iterator != binaryTree.end(); i++){
+                    if (index == i){
+                        num_child = num_child - 1;
+                        binaryTree.remove(*iterator);
                         return;
                     }
-                    it++;
-                    counter++;
-
                 }
             }
-
+            //Breadth-first traversal starting at this node
             void breadthFirstTraverse(void (*dataFunction)(const T)) const
             {
-                list<TreeNode> tree2;
+                list<TreeNode> tempTree;
+                tempTree.push_front(*this);
 
-                tree2.push_front(*this);
-
-
-                while (!tree2.empty())
+                //while the tree is not empty
+                //continue iterating
+                size_t counter = 0;
+                while (tempTree.empty() == false)
                 {
-                    TreeNode node = tree2.front();
-                    tree2.pop_front();
-
-                    (*dataFunction)(node.getData());
-
-                    for(size_t x = 0; x < node.getChildCount(); x++)
-                    {
-                        tree2.push_back(*node.getChild(x));
+                    TreeNode n = tempTree.front();
+                    tempTree.pop_front();
+                    (*dataFunction)(n.getData());
+                    while(counter < n.getChildCount()){
+                        tempTree.push_back(*n.getChild(counter));
+                        counter++;
                     }
+
                 }
 
             }
 
             void preOrderTraverse(void (*dataFunction)(const T))
             {
-                (*dataFunction)(data);
+                (*dataFunction)(val);
 
-                for (size_t x = 0; x < this->getChildCount(); x++)
-                {
-                    this->getChild(x)->preOrderTraverse(dataFunction);
+                for(int i = 0; i < binaryTree.size(); i++){
+                    getChild(i)->preOrderTraverse(dataFunction);
                 }
             }
 
             void postOrderTraverse(void (*dataFunction)(const T))
             {
 
-                auto iter = tree.begin();
-                while (iter != tree.end())
+                auto iter = binaryTree.begin();
+                while (iter != binaryTree.end())
                 {
                     (**iter).postOrderTraverse(dataFunction);
                     iter++;
                 }
-                (*dataFunction)(data);
+                (*dataFunction)(val);
             }
 
         protected:
-            T data;
-            int children;
-            list<TreeNode*> tree;
+            T val;
+            int num_child;
+            list<TreeNode*> binaryTree;
         };
     }}  // namespace ufl_cap4053::fundamentals
