@@ -95,6 +95,7 @@ namespace ufl_cap4053 {
                 }
             }
             //Breadth-first traversal starting at this node
+            //calls data fuction on the element to process it
             void breadthFirstTraverse(void (*dataFunction)(const T)) const
             {
                 list<TreeNode> tempTree;
@@ -116,7 +117,8 @@ namespace ufl_cap4053 {
                 }
 
             }
-
+            //pre-order traversal starting at this node
+            //calls Data function on the element to process it
             void preOrderTraverse(void (*dataFunction)(const T))
             {
                 (*dataFunction)(val);
@@ -126,6 +128,8 @@ namespace ufl_cap4053 {
                 }
             }
 
+            //post order traversal starting at this node
+            //calls dataFnction on the element to process it
             void postOrderTraverse(void (*dataFunction)(const T))
             {
 
@@ -138,6 +142,7 @@ namespace ufl_cap4053 {
                 (*dataFunction)(val);
             }
 
+            //protected variables outlining structure of each tree node
         protected:
             T val;
             int num_child;
