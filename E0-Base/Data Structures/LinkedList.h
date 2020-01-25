@@ -124,14 +124,15 @@ namespace ufl_cap4053 { namespace fundamentals {
                 void pop(){
                     if(!isEmpty()){
                         if(tail){
-                            Node *temp = tail;
-                            tail = temp->prev;
-                            free(temp);
-                            temp->next = nullptr;
+                            Node *node = tail;
+                            tail = node->prev;
+                            tail->next = nullptr;
+                            delete node;
+                            if(head == tail)
+                                tail = nullptr;
 
                         } else {
                             head = nullptr;
-                            tail = nullptr;
                         }
                     }
 
