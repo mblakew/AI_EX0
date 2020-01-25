@@ -42,66 +42,54 @@ int main()
     {
         valueList.enqueue(testStrings[index]);
         pointerList.enqueue(testStrings[index].c_str());
-        cout << "\tget front: " << pointerList.getFront();
-        cout << "\t\tget back: " << pointerList.getBack();
-
-//        traverse(pointerList, printCString);
+        cout << "\tpointerList:";
+        traverse(pointerList, printCString);
         cout << endl;
     }
-//
+
     // Test dequeue.
     cout << endl << "Testing dequeue..." << endl;
     for (;;)
     {
-        cout << "Current front element: " << pointerList.getFront();
-        cout << "\t\t\tRemoving the front element: ";
+        cout << "Removing the front element:";
         printCString(pointerList.getFront());
         pointerList.dequeue();
-//        cout << endl << "\tpointerList:";
-        cout << "\t\t\tFront element after dequeue: " << pointerList.getFront();
-//        cout << "\t\tget back: " << pointerList.getBack();
-//        traverse(pointerList, printCString);
+        cout << endl << "\tpointerList:";
+        traverse(pointerList, printCString);
         cout << endl;
 
-        if (pointerList.isEmpty()){
-            cout << "\n\n\nFront element when empty: " << pointerList.getFront();
+        if (pointerList.isEmpty())
             break;
-        }
         else
             valueList.dequeue();
     }
-//
-    // Test removal of only element.
-//    cout << endl << "Removing the only element from valueList:";
-    cout << "\n\n\nFront element when empty: " << pointerList.getFront();
 
+    // Test removal of only element.
+    cout << endl << "Removing the only element from valueList:";
     printCString(valueList.getFront().c_str());
     valueList.remove(testStrings[numOfStrings - 1]);
     cout << endl << "\tvalueList:";
-
-//    traverse(valueList, printString);
+    traverse(valueList, printString);
     cout << endl;
-//
-//    // Test containment check when empty
+
+    // Test containment check when empty
     cout << endl << "Testing search for: alpha";
     tempStr = "alpha";
     if (!valueList.contains(tempStr))
     {
-        cout << endl << "\tvalueList: TRUEEUEUEUEUEUEU";
-//        traverse(valueList, printString);
+        cout << endl << "\tvalueList:";
+        traverse(valueList, printString);
         cout << endl;
     }
-//
+
     // Test pop.
-    cout << endl << "\n\n\nTesting pop..." << endl;
+    cout << endl << "Testing pop..." << endl;
     cout << "Rebuilding list." << endl;
     for (unsigned int index = 0; index < numOfStrings; ++index)
         pointerList.enqueue(testStrings[index].c_str());
 
     cout << "\tpointerList:";
-    cout << "\tget front: " << pointerList.getFront();
-    cout << "\t\tget back: " << pointerList.getBack();
-//    traverse(pointerList, printCString);
+    traverse(pointerList, printCString);
     cout << endl;
 
     while (!pointerList.isEmpty())
@@ -110,125 +98,123 @@ int main()
         printCString(pointerList.getBack());
         pointerList.pop();
         cout << endl << "\tpointerList:";
-        cout << "\tget front: " << pointerList.getFront();
-        cout << "\t\tget back: " << pointerList.getBack();
-//        traverse(pointerList, printCString);
+        traverse(pointerList, printCString);
         cout << endl;
     }
 
-//    // Test enqueue after removal.
-//    cout << endl << "Testing enqueue after removal..." << endl;
-//    for (unsigned int index = 1; index < numOfStrings; ++index)
-//    {
-//        valueList.enqueue(testStrings[index]);
-//        pointerList.enqueue(testStrings[index].c_str());
-//    }
-//    cout << "\tpointerList:";
-//    traverse(pointerList, printCString);
-//    cout << endl;
-//
-//    // Test unsuccessful search.
-//    cout << endl << "Testing unsuccessful search and remove:";
-//
-//    if (pointerList.contains(testStrings[0].c_str()))
-//    {
-//        assert(valueList.contains(testStrings[0]) && "alpha not found in valueList");
-//        cout << " " << testStrings[0];
-//        pointerList.remove(testStrings[0].c_str());
-//        valueList.remove(testStrings[0]);
-//        valueList.remove(testStrings[0]);
-//        cout << endl << "\tpointerList:";
-//        traverse(pointerList, printCString);
-//        cout << endl;
-//    }
-//    else
-//    {
-//        assert(!valueList.contains(tempStr) && "alpha found in valueList");
-//        cout << " ELEMENT NOT FOUND." << endl;
-//    }
-//
-//    // Test removal of first element.
-//    cout << endl << "Testing search and remove:";
-//
-//    if (pointerList.contains(testStrings[1].c_str()))
-//    {
-//        assert(valueList.contains(testStrings[1]) && "bravo not found in valueList");
-//        cout << " " << testStrings[1];
-//        pointerList.remove(testStrings[1].c_str());
-//        valueList.remove(testStrings[1]);
-//        valueList.remove(testStrings[1]);
-//        cout << endl << "\tpointerList:";
-//        traverse(pointerList, printCString);
-//        cout << endl;
-//    }
-//    else
-//    {
-//        assert(!valueList.contains(tempStr) && "bravo found in valueList");
-//        cout << " ELEMENT NOT FOUND." << endl;
-//    }
-//
-//    // Test removal of middle element.
-//    cout << "Testing search and remove:";
-//
-//    if (pointerList.contains(testStrings[4].c_str()))
-//    {
-//        assert(valueList.contains(testStrings[4]) && "dog not found in valueList");
-//        cout << " " << testStrings[4];
-//        pointerList.remove(testStrings[4].c_str());
-//        valueList.remove(testStrings[4]);
-//        valueList.remove(testStrings[4]);
-//        cout << endl << "\tpointerList:";
-//        traverse(pointerList, printCString);
-//        cout << endl;
-//    }
-//    else
-//    {
-//        assert(!valueList.contains(tempStr) && "dog found in valueList");
-//        cout << " ELEMENT NOT FOUND." << endl;
-//    }
-//
-//    // Test removal of last element.
-//    cout << "Testing search and remove:";
-//
-//    if (pointerList.contains(testStrings[7].c_str()))
-//    {
-//        assert(valueList.contains(testStrings[7]) && "golf not found in valueList");
-//        cout << " " << testStrings[7];
-//        pointerList.remove(testStrings[7].c_str());
-//        valueList.remove(testStrings[7]);
-//        valueList.remove(testStrings[7]);
-//        cout << endl << "\tpointerList:";
-//        traverse(pointerList, printCString);
-//        cout << endl;
-//    }
-//    else
-//    {
-//        assert(!valueList.contains(tempStr) && "golf found in valueList");
-//        cout << " ELEMENT NOT FOUND." << endl;
-//    }
-//
-//    // Test removal of all elements by method.
-//    cout << endl << "Removing all elements from pointerList...";
-//    pointerList.clear();
-//    cout << endl << "\tpointerList:";
-//    traverse(pointerList, printCString);
-//    cout << endl;
-//
-//    // Test destructor.
-//    cout << endl << "Adding elements to test descructor...";
-//    pointerList.enqueue("hotel");
-//    pointerList.enqueue("india");
-//    pointerList.enqueue("juliet");
-//
-//    cout << endl << "\tpointerList:";
-//    traverse(pointerList, printCString);
-//    cout << endl << "\tvalueList:";
-//    traverse(valueList, printString);
-//    cout << endl << endl;
-//
-//    cout << "Press ENTER to continue..." << endl;
-//    while(cin.get() != '\n') {;}
-//    return 0;
+    // Test enqueue after removal.
+    cout << endl << "Testing enqueue after removal..." << endl;
+    for (unsigned int index = 1; index < numOfStrings; ++index)
+    {
+        valueList.enqueue(testStrings[index]);
+        pointerList.enqueue(testStrings[index].c_str());
+    }
+    cout << "\tpointerList:";
+    traverse(pointerList, printCString);
+    cout << endl;
+
+    // Test unsuccessful search.
+    cout << endl << "Testing unsuccessful search and remove:";
+
+    if (pointerList.contains(testStrings[0].c_str()))
+    {
+        assert(valueList.contains(testStrings[0]) && "alpha not found in valueList");
+        cout << " " << testStrings[0];
+        pointerList.remove(testStrings[0].c_str());
+        valueList.remove(testStrings[0]);
+        valueList.remove(testStrings[0]);
+        cout << endl << "\tpointerList:";
+        traverse(pointerList, printCString);
+        cout << endl;
+    }
+    else
+    {
+        assert(!valueList.contains(tempStr) && "alpha found in valueList");
+        cout << " ELEMENT NOT FOUND." << endl;
+    }
+
+    // Test removal of first element.
+    cout << endl << "Testing search and remove:";
+
+    if (pointerList.contains(testStrings[1].c_str()))
+    {
+        assert(valueList.contains(testStrings[1]) && "bravo not found in valueList");
+        cout << " " << testStrings[1];
+        pointerList.remove(testStrings[1].c_str());
+        valueList.remove(testStrings[1]);
+        valueList.remove(testStrings[1]);
+        cout << endl << "\tpointerList:";
+        traverse(pointerList, printCString);
+        cout << endl;
+    }
+    else
+    {
+        assert(!valueList.contains(tempStr) && "bravo found in valueList");
+        cout << " ELEMENT NOT FOUND." << endl;
+    }
+
+    // Test removal of middle element.
+    cout << "Testing search and remove:";
+
+    if (pointerList.contains(testStrings[4].c_str()))
+    {
+        assert(valueList.contains(testStrings[4]) && "dog not found in valueList");
+        cout << " " << testStrings[4];
+        pointerList.remove(testStrings[4].c_str());
+        valueList.remove(testStrings[4]);
+        valueList.remove(testStrings[4]);
+        cout << endl << "\tpointerList:";
+        traverse(pointerList, printCString);
+        cout << endl;
+    }
+    else
+    {
+        assert(!valueList.contains(tempStr) && "dog found in valueList");
+        cout << " ELEMENT NOT FOUND." << endl;
+    }
+
+    // Test removal of last element.
+    cout << "Testing search and remove:";
+
+    if (pointerList.contains(testStrings[7].c_str()))
+    {
+        assert(valueList.contains(testStrings[7]) && "golf not found in valueList");
+        cout << " " << testStrings[7];
+        pointerList.remove(testStrings[7].c_str());
+        valueList.remove(testStrings[7]);
+        valueList.remove(testStrings[7]);
+        cout << endl << "\tpointerList:";
+        traverse(pointerList, printCString);
+        cout << endl;
+    }
+    else
+    {
+        assert(!valueList.contains(tempStr) && "golf found in valueList");
+        cout << " ELEMENT NOT FOUND." << endl;
+    }
+
+    // Test removal of all elements by method.
+    cout << endl << "Removing all elements from pointerList...";
+    pointerList.clear();
+    cout << endl << "\tpointerList:";
+    traverse(pointerList, printCString);
+    cout << endl;
+
+    // Test destructor.
+    cout << endl << "Adding elements to test descructor...";
+    pointerList.enqueue("hotel");
+    pointerList.enqueue("india");
+    pointerList.enqueue("juliet");
+
+    cout << endl << "\tpointerList:";
+    traverse(pointerList, printCString);
+    cout << endl << "\tvalueList:";
+    traverse(valueList, printString);
+    cout << endl << endl;
+
+    cout << "Press ENTER to continue..." << endl;
+    while(cin.get() != '\n') {;}
+    return 0;
 }
 
 template <typename T, typename F>

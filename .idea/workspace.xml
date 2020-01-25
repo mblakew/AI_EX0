@@ -87,38 +87,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="354" key="GridCell.Tab.0.bottom" timestamp="1579906688896">
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1579918139525">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688896" />
-    <state width="1638" height="354" key="GridCell.Tab.0.center" timestamp="1579906688895">
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139525" />
+    <state width="1638" height="349" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
+    <state width="1638" height="328" key="GridCell.Tab.0.center" timestamp="1579918139524">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688895" />
-    <state width="1638" height="354" key="GridCell.Tab.0.left" timestamp="1579906688894">
+    <state width="1638" height="328" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139524" />
+    <state width="1638" height="349" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
+    <state width="1638" height="328" key="GridCell.Tab.0.left" timestamp="1579918139523">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688894" />
-    <state width="1638" height="354" key="GridCell.Tab.0.right" timestamp="1579906688895">
+    <state width="1638" height="328" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139523" />
+    <state width="1638" height="349" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1579911530530" />
+    <state width="1638" height="328" key="GridCell.Tab.0.right" timestamp="1579918139524">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579906688895" />
-    <state width="1638" height="367" key="GridCell.Tab.1.bottom" timestamp="1579906588385">
+    <state width="1638" height="328" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579918139524" />
+    <state width="1638" height="349" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
+    <state width="1638" height="349" key="GridCell.Tab.1.bottom" timestamp="1579918138799">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
-    <state width="1638" height="367" key="GridCell.Tab.1.center" timestamp="1579906588385">
+    <state width="1638" height="349" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138799" />
+    <state width="1638" height="349" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1579911531359" />
+    <state width="1638" height="349" key="GridCell.Tab.1.center" timestamp="1579918138797">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
-    <state width="1638" height="367" key="GridCell.Tab.1.left" timestamp="1579906588384">
+    <state width="1638" height="349" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138797" />
+    <state width="1638" height="349" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1579911531355" />
+    <state width="1638" height="349" key="GridCell.Tab.1.left" timestamp="1579918138793">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588384" />
-    <state width="1638" height="367" key="GridCell.Tab.1.right" timestamp="1579906588385">
+    <state width="1638" height="349" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138793" />
+    <state width="1638" height="349" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1579911531353" />
+    <state width="1638" height="349" key="GridCell.Tab.1.right" timestamp="1579918138798">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579906588385" />
+    <state width="1638" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138798" />
+    <state width="1638" height="349" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1579911531358" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1579846949065">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -129,43 +137,38 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>188</line>
-          <option name="timeStamp" value="15" />
+          <line>97</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>192</line>
-          <option name="timeStamp" value="16" />
+          <line>87</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>195</line>
-          <option name="timeStamp" value="17" />
+          <line>76</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>198</line>
-          <option name="timeStamp" value="18" />
+          <line>99</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>201</line>
-          <option name="timeStamp" value="20" />
+          <line>98</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>203</line>
-          <option name="timeStamp" value="21" />
+          <line>100</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>206</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>209</line>
-          <option name="timeStamp" value="23" />
+          <line>101</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
