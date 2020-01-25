@@ -6,83 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/Data Structures/TreeNode.h
-list
--
+C:/Users/micha/CLionProjects/AI_EX0/E0-Base/Data Structures/LinkedList.h
 
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp
-queue
--
-stack
--
-Behavior.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/BehaviorTree/Behavior.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/BehaviorTree/Behavior.h
-vector
--
-../../Data Structures/TreeNode.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/Data Structures/TreeNode.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Agent.cpp
-Agent.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Agent.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Agent.h
-vector
+C:/Users/micha/CLionProjects/AI_EX0/E0-Base/LinkedList/main.cpp
+limits
 -
 string
 -
-World.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/World.h
-../BehaviorTree/Behavior.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/BehaviorTree/Behavior.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Behaviors.cpp
-queue
--
-stack
+cassert
 -
 iostream
 -
-../Game/Agent.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Agent.h
-../Game/definitions.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/definitions.h
-Behaviors.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Behaviors.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Behaviors.h
-../BehaviorTree/Behavior.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/BehaviorTree/Behavior.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Game.cpp
-limits
--
-iostream
--
-vector
--
-queue
--
-Windows.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Windows.h
-definitions.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/definitions.h
-Game.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Game.h
-Behaviors.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Behaviors.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Game.h
-Agent.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/Agent.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/World.h
-vector
--
-definitions.h
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/definitions.h
-
-C:/Users/micha/CLionProjects/AI_EX0/E0-Base/WumpusWorld/Game/definitions.h
+../Data Structures/LinkedList.h
+C:/Users/micha/CLionProjects/AI_EX0/E0-Base/Data Structures/LinkedList.h
 

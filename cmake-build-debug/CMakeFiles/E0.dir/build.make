@@ -56,92 +56,32 @@ include CMakeFiles/E0.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/E0.dir/flags.make
 
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj: CMakeFiles/E0.dir/flags.make
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj: ../E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp
+CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj: CMakeFiles/E0.dir/flags.make
+CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj: ../E0-Base/LinkedList/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\LinkedList\main.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\LinkedList\main.cpp
 
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp > CMakeFiles\E0.dir\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp.i
+CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\LinkedList\main.cpp > CMakeFiles\E0.dir\E0-Base\LinkedList\main.cpp.i
 
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\BehaviorTree\Behavior.cpp.s
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj: CMakeFiles/E0.dir/flags.make
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj: ../E0-Base/WumpusWorld/Game/Agent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Agent.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Agent.cpp
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Agent.cpp > CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Agent.cpp.i
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Agent.cpp -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Agent.cpp.s
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj: CMakeFiles/E0.dir/flags.make
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj: ../E0-Base/WumpusWorld/Game/Behaviors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Behaviors.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Behaviors.cpp
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Behaviors.cpp > CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Behaviors.cpp.i
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Behaviors.cpp -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Behaviors.cpp.s
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj: CMakeFiles/E0.dir/flags.make
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj: ../E0-Base/WumpusWorld/Game/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Game.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Game.cpp
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Game.cpp > CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Game.cpp.i
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\Game.cpp -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\Game.cpp.s
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj: CMakeFiles/E0.dir/flags.make
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj: ../E0-Base/WumpusWorld/Game/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\World.cpp.obj -c C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\World.cpp
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\World.cpp > CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\World.cpp.i
-
-CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\WumpusWorld\Game\World.cpp -o CMakeFiles\E0.dir\E0-Base\WumpusWorld\Game\World.cpp.s
+CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\micha\CLionProjects\AI_EX0\E0-Base\LinkedList\main.cpp -o CMakeFiles\E0.dir\E0-Base\LinkedList\main.cpp.s
 
 # Object files for target E0
 E0_OBJECTS = \
-"CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj" \
-"CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj" \
-"CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj" \
-"CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj" \
-"CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj"
+"CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj"
 
 # External object files for target E0
 E0_EXTERNAL_OBJECTS =
 
-E0.exe: CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj
-E0.exe: CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj
-E0.exe: CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj
-E0.exe: CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj
-E0.exe: CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj
+E0.exe: CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj
 E0.exe: CMakeFiles/E0.dir/build.make
 E0.exe: CMakeFiles/E0.dir/linklibs.rsp
 E0.exe: CMakeFiles/E0.dir/objects1.rsp
 E0.exe: CMakeFiles/E0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable E0.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\micha\CLionProjects\AI_EX0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable E0.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\E0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

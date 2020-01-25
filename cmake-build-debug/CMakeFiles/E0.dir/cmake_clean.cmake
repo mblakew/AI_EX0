@@ -1,9 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj"
-  "CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj"
-  "CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj"
-  "CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj"
-  "CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj"
+  "CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj"
   "E0.pdb"
   "E0.exe"
   "E0.exe.manifest"

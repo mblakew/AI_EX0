@@ -122,140 +122,32 @@ E0/fast:
 	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/build
 .PHONY : E0/fast
 
-E0-Base/WumpusWorld/BehaviorTree/Behavior.obj: E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj
+E0-Base/LinkedList/main.obj: E0-Base/LinkedList/main.cpp.obj
 
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.obj
-
-# target to build an object file
-E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj
-
-E0-Base/WumpusWorld/BehaviorTree/Behavior.i: E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i
-
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.i
-
-# target to preprocess a source file
-E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.i
-
-E0-Base/WumpusWorld/BehaviorTree/Behavior.s: E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s
-
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.s
-
-# target to generate assembly for a file
-E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s
-.PHONY : E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.s
-
-E0-Base/WumpusWorld/Game/Agent.obj: E0-Base/WumpusWorld/Game/Agent.cpp.obj
-
-.PHONY : E0-Base/WumpusWorld/Game/Agent.obj
+.PHONY : E0-Base/LinkedList/main.obj
 
 # target to build an object file
-E0-Base/WumpusWorld/Game/Agent.cpp.obj:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj
-.PHONY : E0-Base/WumpusWorld/Game/Agent.cpp.obj
+E0-Base/LinkedList/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj
+.PHONY : E0-Base/LinkedList/main.cpp.obj
 
-E0-Base/WumpusWorld/Game/Agent.i: E0-Base/WumpusWorld/Game/Agent.cpp.i
+E0-Base/LinkedList/main.i: E0-Base/LinkedList/main.cpp.i
 
-.PHONY : E0-Base/WumpusWorld/Game/Agent.i
-
-# target to preprocess a source file
-E0-Base/WumpusWorld/Game/Agent.cpp.i:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.i
-.PHONY : E0-Base/WumpusWorld/Game/Agent.cpp.i
-
-E0-Base/WumpusWorld/Game/Agent.s: E0-Base/WumpusWorld/Game/Agent.cpp.s
-
-.PHONY : E0-Base/WumpusWorld/Game/Agent.s
-
-# target to generate assembly for a file
-E0-Base/WumpusWorld/Game/Agent.cpp.s:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.s
-.PHONY : E0-Base/WumpusWorld/Game/Agent.cpp.s
-
-E0-Base/WumpusWorld/Game/Behaviors.obj: E0-Base/WumpusWorld/Game/Behaviors.cpp.obj
-
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.obj
-
-# target to build an object file
-E0-Base/WumpusWorld/Game/Behaviors.cpp.obj:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.cpp.obj
-
-E0-Base/WumpusWorld/Game/Behaviors.i: E0-Base/WumpusWorld/Game/Behaviors.cpp.i
-
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.i
+.PHONY : E0-Base/LinkedList/main.i
 
 # target to preprocess a source file
-E0-Base/WumpusWorld/Game/Behaviors.cpp.i:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.i
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.cpp.i
+E0-Base/LinkedList/main.cpp.i:
+	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.i
+.PHONY : E0-Base/LinkedList/main.cpp.i
 
-E0-Base/WumpusWorld/Game/Behaviors.s: E0-Base/WumpusWorld/Game/Behaviors.cpp.s
+E0-Base/LinkedList/main.s: E0-Base/LinkedList/main.cpp.s
 
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.s
-
-# target to generate assembly for a file
-E0-Base/WumpusWorld/Game/Behaviors.cpp.s:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.s
-.PHONY : E0-Base/WumpusWorld/Game/Behaviors.cpp.s
-
-E0-Base/WumpusWorld/Game/Game.obj: E0-Base/WumpusWorld/Game/Game.cpp.obj
-
-.PHONY : E0-Base/WumpusWorld/Game/Game.obj
-
-# target to build an object file
-E0-Base/WumpusWorld/Game/Game.cpp.obj:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj
-.PHONY : E0-Base/WumpusWorld/Game/Game.cpp.obj
-
-E0-Base/WumpusWorld/Game/Game.i: E0-Base/WumpusWorld/Game/Game.cpp.i
-
-.PHONY : E0-Base/WumpusWorld/Game/Game.i
-
-# target to preprocess a source file
-E0-Base/WumpusWorld/Game/Game.cpp.i:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.i
-.PHONY : E0-Base/WumpusWorld/Game/Game.cpp.i
-
-E0-Base/WumpusWorld/Game/Game.s: E0-Base/WumpusWorld/Game/Game.cpp.s
-
-.PHONY : E0-Base/WumpusWorld/Game/Game.s
+.PHONY : E0-Base/LinkedList/main.s
 
 # target to generate assembly for a file
-E0-Base/WumpusWorld/Game/Game.cpp.s:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.s
-.PHONY : E0-Base/WumpusWorld/Game/Game.cpp.s
-
-E0-Base/WumpusWorld/Game/World.obj: E0-Base/WumpusWorld/Game/World.cpp.obj
-
-.PHONY : E0-Base/WumpusWorld/Game/World.obj
-
-# target to build an object file
-E0-Base/WumpusWorld/Game/World.cpp.obj:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj
-.PHONY : E0-Base/WumpusWorld/Game/World.cpp.obj
-
-E0-Base/WumpusWorld/Game/World.i: E0-Base/WumpusWorld/Game/World.cpp.i
-
-.PHONY : E0-Base/WumpusWorld/Game/World.i
-
-# target to preprocess a source file
-E0-Base/WumpusWorld/Game/World.cpp.i:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.i
-.PHONY : E0-Base/WumpusWorld/Game/World.cpp.i
-
-E0-Base/WumpusWorld/Game/World.s: E0-Base/WumpusWorld/Game/World.cpp.s
-
-.PHONY : E0-Base/WumpusWorld/Game/World.s
-
-# target to generate assembly for a file
-E0-Base/WumpusWorld/Game/World.cpp.s:
-	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.s
-.PHONY : E0-Base/WumpusWorld/Game/World.cpp.s
+E0-Base/LinkedList/main.cpp.s:
+	$(MAKE) -f CMakeFiles\E0.dir\build.make CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.s
+.PHONY : E0-Base/LinkedList/main.cpp.s
 
 # Help Target
 help:
@@ -266,21 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... E0
 	@echo ... rebuild_cache
-	@echo ... E0-Base/WumpusWorld/BehaviorTree/Behavior.obj
-	@echo ... E0-Base/WumpusWorld/BehaviorTree/Behavior.i
-	@echo ... E0-Base/WumpusWorld/BehaviorTree/Behavior.s
-	@echo ... E0-Base/WumpusWorld/Game/Agent.obj
-	@echo ... E0-Base/WumpusWorld/Game/Agent.i
-	@echo ... E0-Base/WumpusWorld/Game/Agent.s
-	@echo ... E0-Base/WumpusWorld/Game/Behaviors.obj
-	@echo ... E0-Base/WumpusWorld/Game/Behaviors.i
-	@echo ... E0-Base/WumpusWorld/Game/Behaviors.s
-	@echo ... E0-Base/WumpusWorld/Game/Game.obj
-	@echo ... E0-Base/WumpusWorld/Game/Game.i
-	@echo ... E0-Base/WumpusWorld/Game/Game.s
-	@echo ... E0-Base/WumpusWorld/Game/World.obj
-	@echo ... E0-Base/WumpusWorld/Game/World.i
-	@echo ... E0-Base/WumpusWorld/Game/World.s
+	@echo ... E0-Base/LinkedList/main.obj
+	@echo ... E0-Base/LinkedList/main.i
+	@echo ... E0-Base/LinkedList/main.s
 .PHONY : help
 
 
