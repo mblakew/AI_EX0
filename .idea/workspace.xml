@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="E0" targetName="E0" />
     </generated>
@@ -12,10 +12,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bdc31-6330-4b54-955a-6b3b539f4fab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/Data Structures/TreeNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Agent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Agent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/LinkedList/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/WumpusWorld/BehaviorTree/Behavior.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Agent.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Behaviors.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/Game.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/E0-Base/WumpusWorld/Game/World.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E0.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/E0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/E0.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E0.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,66 +72,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1808575602">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="E0 (disassembly)" value="1" />
-          <entry key="cpp" value="1" />
-          <entry key="h" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="h" value="2461" />
-          <entry key="txt" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="17" />
-          <entry key="ObjectiveC" value="2461" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E0-Base/LinkedList/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -92,33 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>data</find>
-      <find>list</find>
-      <find>queue</find>
-      <find>remove</find>
-      <find>?</find>
-      <find>Testing pop</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/E0-Base/Data Structures/TreeNode.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
@@ -127,42 +89,6 @@
   </component>
   <component name="ProjectId" id="1WobapbT1NMujVNYJ70cyshFAmc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="E0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI_EX0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI_EX0" type="462c0819:PsiDirectoryNode" />
-              <item name="E0-Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI_EX0" type="462c0819:PsiDirectoryNode" />
-              <item name="E0-Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="E0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI_EX0" type="462c0819:PsiDirectoryNode" />
-              <item name="E0-Base" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -176,23 +102,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/E0-Base" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/E0-Base" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.E0">
+  <component name="RunManager" selected="CMake Application.E0">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -204,8 +118,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.E0" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.E0" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -234,97 +148,75 @@
       <workItem from="1579819370494" duration="641000" />
       <workItem from="1579846947768" duration="5708000" />
       <workItem from="1579937735949" duration="4228000" />
+      <workItem from="1580313919795" duration="976000" />
+      <workItem from="1581280538170" duration="691000" />
+      <workItem from="1581283669710" duration="399000" />
+      <workItem from="1581288082463" duration="574000" />
+      <workItem from="1581289647833" duration="208000" />
+      <workItem from="1588962809648" duration="8000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4228000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12139504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.5469169" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46514747" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36997318" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="253" key="#Build_All" timestamp="1581283778493">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="549" y="253" key="#Build_All/0.0.1680.1050@0.0.1680.1050" timestamp="1581283778493" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579918460580">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579918460580" />
-    <state width="1638" height="437" key="GridCell.Tab.0.bottom" timestamp="1579922236317">
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom" timestamp="1581285261715">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="437" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236317" />
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581285261715" />
     <state width="1638" height="349" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
-    <state width="1638" height="437" key="GridCell.Tab.0.center" timestamp="1579922236316">
+    <state width="1638" height="369" key="GridCell.Tab.0.center" timestamp="1581285261714">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="437" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236316" />
+    <state width="1638" height="369" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581285261714" />
     <state width="1638" height="349" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
-    <state width="1638" height="437" key="GridCell.Tab.0.left" timestamp="1579922236315">
+    <state width="1638" height="369" key="GridCell.Tab.0.left" timestamp="1581285261713">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="437" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236315" />
+    <state width="1638" height="369" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581285261713" />
     <state width="1638" height="349" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1579911530530" />
-    <state width="1638" height="437" key="GridCell.Tab.0.right" timestamp="1579922236317">
+    <state width="1638" height="369" key="GridCell.Tab.0.right" timestamp="1581285261714">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="437" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579922236317" />
+    <state width="1638" height="369" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581285261714" />
     <state width="1638" height="349" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1579911530531" />
-    <state width="1638" height="349" key="GridCell.Tab.1.bottom" timestamp="1579918138799">
+    <state width="1638" height="334" key="GridCell.Tab.1.bottom" timestamp="1580352977107">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="349" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138799" />
+    <state width="1638" height="334" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580352977107" />
     <state width="1638" height="349" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1579911531359" />
-    <state width="1638" height="349" key="GridCell.Tab.1.center" timestamp="1579918138797">
+    <state width="1638" height="334" key="GridCell.Tab.1.center" timestamp="1580352977106">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="349" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138797" />
+    <state width="1638" height="334" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580352977106" />
     <state width="1638" height="349" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1579911531355" />
-    <state width="1638" height="349" key="GridCell.Tab.1.left" timestamp="1579918138793">
+    <state width="1638" height="334" key="GridCell.Tab.1.left" timestamp="1580352977106">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="349" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138793" />
+    <state width="1638" height="334" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580352977106" />
     <state width="1638" height="349" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1579911531353" />
-    <state width="1638" height="349" key="GridCell.Tab.1.right" timestamp="1579918138798">
+    <state width="1638" height="334" key="GridCell.Tab.1.right" timestamp="1580352977106">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579918138798" />
+    <state width="1638" height="334" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580352977106" />
     <state width="1638" height="349" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1579911531358" />
     <state x="329" y="189" key="SettingsEditor" timestamp="1579922717336">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="329" y="189" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579922717336" />
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1579846949065">
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1581289648906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579846949065" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581289648906" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,57 +227,11 @@
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>124</line>
+          <url>file://$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Agent.cpp</url>
+          <line>45</line>
           <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>126</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h</url>
-          <line>133</line>
-          <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/E0-Base/WumpusWorld/Game/Game.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E0-Base/Data Structures/TreeNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E0-Base/LinkedList/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E0-Base/Data Structures/LinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

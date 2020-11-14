@@ -4,6 +4,7 @@
 
 #include "Agent.h"
 
+
 namespace ufl_cap4053 { namespace fundamentals {
 
 	// Initialize Knowledge
@@ -45,7 +46,7 @@ namespace ufl_cap4053 { namespace fundamentals {
 	const char* Knowledge::getStateAsString(int _x, int _y)
 	{
 		if (x == _x && y == _y)
-			return u8" ☺ ";
+			return " ☺ ";
 
 		switch (modelWorld[_x][_y])
 		{
@@ -54,15 +55,15 @@ namespace ufl_cap4053 { namespace fundamentals {
 		case CLEAR:
 			return "   ";
 		case DEFINITE_WUMPUS:
-			return u8" Ω ";
+			return " Ω ";
 		case DEFINITE_PIT:
-			return u8" ○ ";
+			return " ○ ";
 		case POSSIBLE_WUMPUS:
-			return u8"?Ω?";
+			return "?Ω?";
 		case POSSIBLE_PIT:
-			return u8"?○?";
+			return "?○?";
 		case POSSIBLE_W_P:
-			return u8"Ω○?";
+			return "Ω○?";
 		default:
 			return "WAT";
 		}
@@ -70,7 +71,7 @@ namespace ufl_cap4053 { namespace fundamentals {
 
 	const char* Knowledge::getStimuliAsString(int _x, int _y)
 	{
-		static const char stimStrings[][10] = { u8"   ", u8"‼  ", u8" ~ ", u8"‼~ ", u8"  ☼", u8"‼ ☼", u8" ~☼", u8"‼~☼" };
+		static const char stimStrings[][10] = { "   ", "‼  ", " ~ ", "‼~ ", "  ☼", "‼ ☼", " ~☼", "‼~☼" };
 		return stimStrings[(stimuli[_x][_y] & (STENCH | BREEZE | GOLD))];
 	}
 

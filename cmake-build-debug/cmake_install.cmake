@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/micha/CLionProjects/AI_EX0
+# Install script for directory: /Users/blakewilliams/CLionProjects/CompGamesAI/E0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/E0")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/micha/CLionProjects/AI_EX0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/blakewilliams/CLionProjects/CompGamesAI/E0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
